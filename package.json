@@ -12,8 +12,7 @@
   {
   "devDependencies": {
     "vitest": "^3.0.3",
--   "@cloudflare/vitest-pool-workers": "^0.8.10"
-+   "@cloudflare/vitest-pool-workers": "^0.8.10", // 添加逗号
+    "@cloudflare/vitest-pool-workers": "^0.8.10"， 
     "wrangler": "^3.60.3"
   },
   "dependencies": {
