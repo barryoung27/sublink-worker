@@ -1,20 +1,16 @@
 {
-  "name": "sublink-plus",
+  "name": "sublink-worker",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
-    "deploy": "npm run setup-kv && wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev",
-    "test": "vitest",
-    "setup-kv": "node scripts/setup-kv.js"
+    "setup-kv": "node setup-kv.js",
+    "test": "vitest"
   },
-  {
   "devDependencies": {
     "vitest": "^3.0.3",
-    "@cloudflare/vitest-pool-workers": "^0.8.10"
+    "@cloudflare/vitest-pool-workers": "^0.8.10",
     "wrangler": "^3.60.3"
-  },
+  }
+}
   "dependencies": {
     "js-yaml": "^4.1.0",
     "sublink-plus": "file:"
